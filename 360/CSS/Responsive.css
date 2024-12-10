@@ -1,0 +1,64 @@
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        margin: 5px 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .pestana_2 {
+        flex-direction: column;
+    }
+
+    #inicio h1 {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 15px;
+    }
+}
+
